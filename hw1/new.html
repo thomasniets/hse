@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Title + Description -->
+  <title>Личная страница Васюковой Виктории</title>
+<link rel="SHORTCUT ICON" href="http://www.shoclub.com/sho_images/icons/icon2.png" type="image/png">
+
+  <!--Google Fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel=
+  'stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700'
+  rel='stylesheet' type='text/css'>
+
+  <!--Fonts-->
+  <meta name="font:Body" content="'Quicksand', Helvetica, sans-serif"/>
+  <meta name="font:Title" content="'Pathway Gothic One', helvetica, sans-serif;"/>
+
+  <!-- Colors -->
+  <meta name="color:Header" content="#F3F3F3">
+  <meta name="color:Post Background" content="#FEFEFE">
+  <meta name="color:Text" content="#262626">
+  <meta name="color:Hover" content="#C0C0C0">
+  <meta name="color:Logo" content="#262626">
+  
+  <!-- Boolean -->
+  <meta name="if:Show Sidebar" content="1">
+  <meta name="if:Show Avatar" content="1">
+  <meta name="if:Show Description" content="1">
+  <meta name="if:Show Sidebar Menu" content="1">
+  <meta name="if:Show Custom Sidebar" content="0">
+
+ </head>
+
+<style type="text/css">
+  *, *:before, *:after {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    margin: 0 auto;
+  }
+
+  body,html {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background: #FAFAFA;
+    color: #262626;
+    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-weight: 400;
+  }
+
+  a, a:visited {
+    color: #444444;
+    text-decoration: none;
+    
+  }
+
+  a:hover, a:active {
+    color: #C0C0C0;
+  }
+
+  img {
+    margin: 5px auto;
+    display: block;
+  }
+
+  h1, h2, h3 {
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    font-size: 150%;
+  }
+
+  article, aside, footer, header, nav, section {
+    display: block;
+  }
+
+  header, footer {
+    text-align: center;
+  }
+
+  .c-fluid{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  blockquote {
+    border-left:; 2px solid #444444;
+    padding-left: 12px;
+  }
+
+  /* Header + Title */
+  header {
+    background: #F3F3F3;
+    
+    background-size: cover;
+    background-position: center;
+  }
+
+  #logo {
+    font-family: 'Pathway Gothic One', helvetica, sans-serif;;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 50px auto 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+  }
+
+  #logo a, #logo a:visited {
+    color: #262626;
+    text-decoration: none;
+  }
+
+  #logo a:hover, #logo a:active {
+    color: #C0C0C0;
+  }
+
+  .avatar {
+    border-radius: 100%;
+  }
+
+  /* Content Container */
+  .wrapper:before,
+  .wrapper:after {
+    display: table;
+    content: '';
+  }
+
+  .wrapper:after {
+    clear: both;
+  }
+
+  .cc {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .cc,
+  .sc {
+    overflow: hidden;
+  }
+
+  /* Container */
+  .c {
+    background: #FEFEFE;
+  }
+
+  /* Sidebar */
+  .s {
+    background: #FEFEFE;
+    text-align: center;
+  }
+
+  .c, .s {
+    padding: 25px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+  }
+
+  div.s > h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .d {
+    padding: 10px 0;
+  }
+
+  /* Sidebar Navigation Menu */
+  div.s.sidebarnav > ul {
+    padding: 0;
+    margin: 0;
+  }
+  div.s.sidebarnav > ul > li {
+    list-style: none;
+    padding: 15px 3px;
+    margin: 15px 0;
+    border: 3px solid #262626;
+  }
+  div.s.sidebarnav > ul > li a {
+    color: #262626;
+    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  div.s.sidebarnav > ul > li:hover {
+    border: 3px solid #C0C0C0;
+    background: #C0C0C0;
+  }
+
+  /* Top Navigation */
+  nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px auto;
+  }
+
+  nav > ul > li a {
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  /* Posts: Quote */
+  div.quote > blockquote {
+    border: 0;
+    padding: 0;
+    margin: 20px auto 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  div.quote > blockquote.long {
+    font-size: 150%;
+  }
+
+  div.quote > blockquote.short {
+    font-size: 220%;
+  }
+
+  div.quote > p.source, .source {
+    text-align: center;
+  }
+
+  /* Footer */
+  footer {
+    margin: 20px auto;
+    text-align: center;
+    clear: both;
+  }
+
+  footer > div.top,
+  footer > div.top a,
+  footer > div.top a:visited {
+    color: #444444;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  footer > div.copyright {
+    color: #262626;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 8px auto;
+  }
+
+  footer > div.credit {
+    font-size: 10px;
+    color: #262626;
+  }
+
+  
+
+  /* Laptops + Desktops */
+  @media screen and (min-width: 1024px) {
+    .wrapper {
+      max-width: 950px;
+      margin: 0 auto;
+    }
+    /* content container */
+    .cc {
+      overflow: auto;
+      width: 70%;
+      float: left;
+      padding-right: 1em;
+    }
+
+    
+
+    /* sidebar */
+    .sc {
+      width: 100%;
+      float: none;
+      padding-left: 10px;
+    }
+
+    .s {
+      padding: 25px;
+    }
+
+  /* Tablets */
+  @media screen and (min-width: 760px)
+  and (max-width: 1023px) {
+    /* content container */
+    .wrapper {
+      max-width: 740px;
+      margin: 0 auto;
+    }
+    .cc {
+      overflow: hidden;
+      width: 70%;
+      padding-right: 10px;
+      float: left;
+    }
+    .c, .s {
+      padding: 10px;
+    }
+
+    
+
+    /* sidebar */
+    .sc {
+      width: 100%;
+      word-wrap: break-word;
+      float: left;
+      padding-left: 10px;
+    }
+
+  /* Mobile, Smartphones, iPhone */
+  @media screen and (max-width: 759px) {
+    /* content container */
+    .cc{
+      width: 100%;
+      padding: 10px;
+    }
+
+    /* container */
+    .c {
+      padding: 25px 25px 40px;
+    }
+
+    /* sidebar */
+    .sc {
+      max-width: 300px;
+      margin: 20px auto;
+    }
+
+    .s {
+      margin: 2em auto;
+      padding: 25px 25px 40px;
+    }
+
+    input, textarea, select {
+      -webkit-appearance: none;
+      border-radius: 0;
+      -webkit-border-radius:0;
+    }
+
+    * {
+      -webkit-tap-highlight-color:#C0C0C0;
+    }
+
+ </style>
+
+<body>
+<header class="c-fluid" id="#header">    
+    <h1 id="logo">Васюкова Виктория</a></h1>
+ </header>
+   <!--SIDEBAR-->
+      <aside class="sc">
+        <div class="s">
+          
+          <a href=""><img class="avatar" src="https://pp.vk.me/c625227/v625227333/3e8b5/GujN_OytSk8.jpg" width="700" height="700"></a>
+          
+          
+        </div>
+        
+<blockquote>
+<p>  <a> Меня зовут Вика, мне 17 лет. Я приехала в Москву из города Новочеркасска. В детстве перепробовала все хобби, поэтому сейчас мало чем увлекаюсь. Люблю кино, аналоговую фотографию, животных, в свободное время пою, рисую, читаю про космос, брожу по музеям и пустым улицам. Мало разговариваю, поэтому имею много друзей по переписке. Мало фотографируюсь, потому что предпочитаю фотографировать сама. Хочу попробовать себя в психолингвистике и компьютерной лингвистике, но не уверена в том, кем вижу себя через несколько лет. </a> </p>
+        
+        <div class="s sidebarnav">
+		
+          <ul>
+		  <li>
+              <a href="https://vk.com/jesuisstein">Моя страница ВКонтакте</a>
+            </li>
+			
+            <li>
+              <a href="https://ling.hse.ru">Школа лингвистики НИУ ВШЭ</a>
+            </li>
+            
+			<li>
+              <a href="https://www.hse.ru/ba/ling/">Страница программы</a>
+            </li>	
+			
+			<li>
+              <a>Я фотографирую</a>
+            </li>
+          </ul>
+        </div>
+        
+
+
+        </aside><!--close sidebar-->
+      </main>
+
+          
+		   <div class="photo">
+          <img src="https://pp.vk.me/c626930/v626930961/eb4c/sSOIqeuMJzw.jpg">
+          </div>
+		  
+		   <div class="photo">
+          <img src="https://pp.vk.me/c626930/v626930961/eb10/CctpvGBY-3E.jpg">
+          </div>
+		  
+		  <div class="photo">
+          <img src="https://pp.vk.me/c626930/v626930961/eb24/DhS5U3GHLmw.jpg">
+		  </div>
+		  <div class="container"> 
+				<p style="text-align:right; ">&copy; В. Васюкова, 2016</p> 
+			</div>
+</body>
+</html>
