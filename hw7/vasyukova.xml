@@ -632,7 +632,7 @@
 <w>утра<ana lex="утро" gr="S,n,inan=acc,pl"/><ana lex="утро" gr="S,n,inan=gen,sg"/><ana lex="утро" gr="S,n,inan=nom,pl"/></w> 
 <distinct form="навскидочку">
 <w>навскидочку<ana lex="навскидку" gr="ADV="/></w>/
-<w>distinct</w>, 
+</distinct>, 
 <w>вот<ana lex="вот" gr="PART="/></w>. 
 </se>
 <se>
@@ -660,7 +660,7 @@
 <w>так<ana lex="так" gr="ADVPRO="/></w> 
 <distinct form="ваще">
 <w>ваще<ana lex="вообще" gr="ADV,parenth="/></w>/
-<w>distinct</w>... 
+</distinct>... 
 </se>
 <se>
 <w>Я<ana lex="я" gr="SPRO,sg,1p=nom"/></w> 
@@ -686,7 +686,7 @@
 <w>высшем<ana lex="высший" gr="A,plen,supr=abl,sg,m"/><ana lex="высший" gr="A,plen,supr=abl,sg,n"/></w> 
 <w>учебном<ana lex="учебный" gr="A=abl,sg,plen,m"/><ana lex="учебный" gr="A=abl,sg,plen,n"/></w> 
 <w>заведении<ana lex="заведение" gr="S,n,inan=abl,sg"/></w>/
-<w>distinct</w>, 
+</distinct>, 
 <w>вот<ana lex="вот" gr="PART="/></w>, 
 <w>но<ana lex="но" gr="CONJ="/></w>, 
 <w>естественно<ana lex="естественно" gr="ADV=parenth"/></w>, 
@@ -698,7 +698,8 @@
 <w>медицинском<ana lex="медицинский" gr="A=abl,sg,plen,m"/><ana lex="медицинский" gr="A=abl,sg,plen,n"/></w> 
 <w>высшем<ana lex="высший" gr="A,plen,supr=abl,sg,m"/><ana lex="высший" gr="A,plen,supr=abl,sg,n"/></w> 
 <w>учебном<ana lex="учебный" gr="A=abl,sg,plen,m"/><ana lex="учебный" gr="A=abl,sg,plen,n"/></w> 
-<w>заведении<ana lex="заведение" gr="S,n,inan=abl,sg"/></w></distinct>
+<w>заведении<ana lex="заведение" gr="S,n,inan=abl,sg"/></w>
+</distinct>
 <w>class</w>="
 <w>note</w>"
 <w>Смех<ana lex="смех" gr="S,m,inan=acc,sg"/><ana lex="смех" gr="S,m,inan=nom,sg"/></w>/
@@ -741,7 +742,7 @@
 <w>так<ana lex="так" gr="ADVPRO="/></w>. 
 <distinct form="Воот">
 <w>Воот<ana lex="вот" gr="PART="/></w>/
-<w>distinct</w>, 
+</distinct>, 
 <w>думали<ana lex="думать" gr="V,ipf,intr=praet,pl,indic"/></w> 
 <w>все<ana lex="весь" gr="APRO=nom,pl"/><ana lex="весь" gr="APRO=acc,sg,n"/><ana lex="весь" gr="APRO=nom,sg,n"/><ana lex="весь" gr="APRO=acc,pl,inan"/></w> 
 <w>они<ana lex="они" gr="SPRO,pl=nom"/></w>, 
@@ -872,7 +873,8 @@
 <w>Не<ana lex="не" gr="PART="/></w> 
 <w>знаю<ana lex="знать" gr="V,ipf,tran=inpraes,sg,indic,1p"/></w>, 
 <distinct form="че">
-<w>че<ana lex="что" gr="CONJ="/></w></distinct>
+<w>че<ana lex="что" gr="CONJ="/></w>
+</distinct>
 <w>его<ana lex="он" gr="SPRO,sg,3p,m=acc"/><ana lex="он" gr="SPRO,sg,3p,m=gen"/></w> 
 <w>там<ana lex="там" gr="ADVPRO="/></w> 
 <w>смутило<ana lex="смутить" gr="V,pf,tran=praet,sg,indic,n"/></w> 
@@ -921,7 +923,8 @@
 <w>он<ana lex="он" gr="SPRO,sg,3p,m=nom"/></w> 
 <w>говорит<ana lex="говорить" gr="V,ipf,tran=inpraes,sg,indic,3p"/></w>: "
 <distinct form="щас">
-<w>щас<ana lex="сейчас" gr="ADV="/></w></distinct>
+<w>щас<ana lex="сейчас" gr="ADV="/></w>
+</distinct>
 <w>мы<ana lex="мы" gr="SPRO,pl,1p=nom"/></w> 
 <w>будем<ana lex="быть" gr="V,intr=pl,imper,1p"/><ana lex="быть" gr="V,intr=inpraes,pl,indic,1p"/></w> 
 <w>делать<ana lex="делать" gr="V,ipf,tran=inf"/></w>...". 
@@ -1004,8 +1007,8 @@
 <w>наркоз<ana lex="наркоз" gr="S,m,inan=acc,sg"/><ana lex="наркоз" gr="S,m,inan=nom,sg"/></w>, 
 <w>еще<ana lex="еще" gr="ADV="/></w> 
 <distinct form="че">
-<w>че<ana lex="чего" gr="ADVPRO="/></w>/
-<w>distinct</w>-
+<w>че<ana lex="чего" gr="ADVPRO="/></w>
+</distinct>-
 <w>нибудь<ana lex="нибудь" gr="ADVPRO="/></w>, 
 <w>как<ana lex="как" gr="CONJ="/></w> 
 <w>вообще<ana lex="вообще" gr="ADV,parenth="/></w> 
